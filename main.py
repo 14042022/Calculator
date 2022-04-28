@@ -1,5 +1,4 @@
 while True:
-    #iejur51934
     try:
         print('Algoritmo de soma')
         a = int(input('Insira um valor: '))
