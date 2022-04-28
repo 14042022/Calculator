@@ -1,12 +1,12 @@
 while True:
-    #iejur51934
     try:
         print('Algoritmo de soma')
         a = int(input('Insira um valor: '))
         b = int(input('Insira outro valor: '))
         operacao = int(input('Que tipo de operação você quer?'
                              '\n [1]Positivo        [2]Negativo'
-                             '\n [3]Multiplicação   [4]Divisão\n'))
+                             '\n [3]Multiplicação   [4]Divisão'
+                             '\n [5]Potência        [6]Radiciação\n'))
         if operacao == 1:
             resultado = a + b
             print('O resultado é: ' + str(resultado))
@@ -19,6 +19,12 @@ while True:
         if operacao == 4:
             resultado4 = a / b
             print('O resultado é: '+str(resultado4))
+        if operacao == 5:
+            resultado5 = a ** b
+            print('O resultado é: '+str(resultado5))
+        if operacao == 6:
+            resultado6 = a ** 0.5
+            print('O resultado é: '+str(resultado6))
 
     except ValueError:
         print ('Dado invalido')
