@@ -2,6 +2,7 @@ while True:
     #Algoritmo de soma
     try:
         print('Algoritmo de soma')
+        #Valores
         a = int(input('Insira um valor: '))
         b = int(input('Insira outro valor: '))
         operacao = int(input('Que tipo de operação você quer?'
