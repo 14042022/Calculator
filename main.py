@@ -5,6 +5,7 @@ while True:
         #Valores
         a = int(input('Insira um valor: '))
         b = int(input('Insira outro valor: '))
+        #Operadores
         operacao = int(input('Que tipo de operação você quer?'
                              '\n [1]Positivo        [2]Negativo'
                              '\n [3]Multiplicação   [4]Divisão'
