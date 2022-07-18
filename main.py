@@ -10,6 +10,7 @@ while True:
                              '\n [1]Positivo        [2]Negativo'
                              '\n [3]Multiplicação   [4]Divisão'
                              '\n [5]Potência        [6]Radiciação\n'))
+        #Algoritmos
         if operacao == 1:
             resultado = a + b
             print('O resultado é: ' + str(resultado))
