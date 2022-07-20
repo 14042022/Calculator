@@ -29,7 +29,7 @@ while True:
         if operacao == 6:
             resultado6 = a ** 0.5
             print('O resultado é: '+str(resultado6))
-
+    #Erro
     except ValueError:
         print ('Dado invalido')
         continue
